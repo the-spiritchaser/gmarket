@@ -1,5 +1,5 @@
 document.addEventListener(
-  "DOMContentLoaded", (event) => {
+  "DOMContentLoaded", (e) => {
     Payjp.setPublicKey("pk_test_dc32748fc4d155671eb39ed1");
     const btn = document.getElementById('token_submit');
     btn.addEventListener("click", (e) => {
