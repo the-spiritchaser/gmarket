@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   resources :products, only: [:new, :create]
   resources :creditcards, only: [:index, :new, :create, :destroy]
+  
   resources :mypage do
     collection do
       get :my_page
