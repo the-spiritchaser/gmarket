@@ -8,7 +8,7 @@
           出品画像
           .seller__main__content__box__name__text2 必須
         .seller__main__content__box__text
-        最大10枚までアップロードできます
+        最大5枚までアップロードできます
 
         .post__drop__box__container
           .prev-content
@@ -96,12 +96,7 @@
           %span{"class" => "seller__main__content__box5__commission__name1"} ー
         .seller__main__content__box5__btn
           = f.submit '出品する', class: 'seller__main__content__box5__btn__exhibition'
-          -# = f.submit '下書きに保存する', class: 'seller__main__content__box5__btn__draft'
-          -# = f.submit 'もどる', class: 'seller__main__content__box5__btn__return'
         .seller__main__content__box5__text 禁止されている行為および出品物を必ずご確認ください。偽ブランド品や盗品物などの販売は犯罪であり、法律により処罰される可能性があります。 また、出品をもちまして加盟店規約に同意したことになります。
         
 .footer
   = render 'footer'        
--# 動作確認用の仮置きのビューです
-
--# = render partial: 'form'
